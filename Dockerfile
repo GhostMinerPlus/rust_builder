@@ -1,3 +1,3 @@
 FROM archlinux:latest
 
-RUN pacman -Sy rust
+RUN echo -e "\n" | pacman -Sy rust
